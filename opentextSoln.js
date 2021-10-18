@@ -1,27 +1,59 @@
 //Qtn 1:
-// function solution(S) {
-//     let uniqStr = [];
-//     // write your code in JavaScript (Node.js 8.9.4)
-//     for(var i = 0; i<S.length; i++){
-//         for(var j = i+1; j<S.length; j++){
-//             let subStr = S.substring(i, j+1);
-//             if(occurOnce(S, subStr)){
-//                 uniqStr.push(subStr);
-//             }
-//         }
-//     }
-//     console.log(uniqStr);
-//    return Math.min(...uniqStr.map(s => s.length));
-// }
+
+/*
+//working
+
+function solution(S) {
+    let uniqStr = [];
+    // write your code in JavaScript (Node.js 8.9.4)
+    for(var i = 0; i<S.length; i++){
+        for(var j = i+1; j<S.length; j++){
+            let subStr = S.substring(i, j+1);
+            if(occurOnce(S, subStr)){
+                uniqStr.push(subStr);
+            }
+        }
+    }
+    console.log(uniqStr);
+   return Math.min(...uniqStr.map(s => s.length));
+}
 
 
-// function occurOnce(orig, substr){
-//     let remainiStg = orig.replace(new RegExp(substr,"g"), '') || '';
-//     console.log('orig,',orig, 'remainiStg', remainiStg, 'substr', substr );
-//     if((orig.length - remainiStg.length) === substr.length) return true;
-//     else return false;
-// }
+function occurOnce(orig, substr){
+   const fidx = orig.indexOf(substr);
+   const lidx = orig.lastIndexOf(substr);  
+   return fidx === lidx;
+}
 
+*/
+
+
+/*
+function solution(S) {
+    let uniqStr = [];
+    // write your code in JavaScript (Node.js 8.9.4)
+    for(var i = 0; i<S.length; i++){
+        for(var j = i+1; j<S.length; j++){
+            let subStr = S.substring(i, j+1);
+            if(occurOnce(S, subStr)){
+                uniqStr.push(subStr);
+            }
+        }
+    }
+    console.log(uniqStr);
+   return Math.min(...uniqStr.map(s => s.length));
+}
+
+//not working
+function occurOnce(orig, substr){
+    let remainiStg = orig.replace(new RegExp(substr,"g"), '') || '';
+    console.log('orig,',orig, 'remainiStg', remainiStg, 'substr', substr );
+    if((orig.length - remainiStg.length) === substr.length) return true;
+    else return false;
+}
+*/
+
+// https://www.geeksforgeeks.org/smallest-substring-occurring-only-once-in-a-given-string/
 function solution(a)
 {
     let a1 = [];
@@ -72,10 +104,6 @@ function solution(a)
         ans = Math.min(ans, newlist[i]);
     return ans == Number.MAX_VALUE ? 0 : ans;
 }
-
-
-
-// https://www.geeksforgeeks.org/smallest-substring-occurring-only-once-in-a-given-string/
 
 //=======Q2===========
 
