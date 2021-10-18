@@ -1,6 +1,6 @@
 //Qtn 1:
 
-/*
+
 //working
 
 function solution(S) {
@@ -25,7 +25,7 @@ function occurOnce(orig, substr){
    return fidx === lidx;
 }
 
-*/
+
 
 
 /*
@@ -53,7 +53,9 @@ function occurOnce(orig, substr){
 }
 */
 
+/*
 // https://www.geeksforgeeks.org/smallest-substring-occurring-only-once-in-a-given-string/
+//working
 function solution(a)
 {
     let a1 = [];
@@ -104,6 +106,7 @@ function solution(a)
         ans = Math.min(ans, newlist[i]);
     return ans == Number.MAX_VALUE ? 0 : ans;
 }
+*/
 
 //=======Q2===========
 
