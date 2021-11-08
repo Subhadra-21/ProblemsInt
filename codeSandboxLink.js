@@ -26,3 +26,31 @@ https://codesandbox.io/s/mindera1-ek7f7
 capgemini:
 https://codesandbox.io/s/capgemini-gguhh
 */
+
+
+/*
+cognizant:
+https://stackblitz.com/edit/react-kr9jwk -> https://react-kr9jwk.stackblitz.io
+https://stackblitz.com/edit/web-platform-nuqhu6 -> https://web-platform-nuqhu6.stackblitz.io
+*/
+
+
+/*
+Soroco: Assessment in github.
+https://stackblitz.com/edit/web-platform-xg2oxe
+
+*/
+
+/*
+Uplers:
+https://stackblitz.com/edit/react-ts-9n711y?file=search-test2.jsx
+others are assignment
+*/
+
+
+/*
+others:
+https://stackblitz.com/edit/family-tree1
+https://stackblitz.com/edit/web-platform-ropztu?file=file1.html
+https://stackblitz.com/edit/js-twg8go
+*/
