@@ -51,6 +51,11 @@ https://stackblitz.com/edit/react-ts-9n711y?file=search-test2.jsx
 others are assignment
 */
 
+/*
+wissen:
+-> assessment
+-> https://codesandbox.io/s/wissen1-0h97m?file=/src/App.js
+*/
 
 /*
 others:
