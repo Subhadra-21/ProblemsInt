@@ -58,6 +58,12 @@ wissen:
 */
 
 /*
+impact analysis:
+-> impact.js file
+->https://codesandbox.io/s/impactanalysis2-1cis7
+*/
+
+/*
 others:
 https://stackblitz.com/edit/family-tree1
 https://stackblitz.com/edit/web-platform-ropztu?file=file1.html
