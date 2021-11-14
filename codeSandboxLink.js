@@ -40,7 +40,7 @@ https://stackblitz.com/edit/web-platform-nuqhu6 -> https://web-platform-nuqhu6.s
 
 
 /*
-Soroco: Assessment in github.
+Soroco: Assessment in github.(https://github.com/Subhadra-21/Sor_Comments_JSON)
 https://stackblitz.com/edit/web-platform-xg2oxe
 https://jsfiddle.net/qye8p963/29/
 */
