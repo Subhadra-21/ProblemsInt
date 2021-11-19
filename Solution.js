@@ -81,6 +81,36 @@ function solution(blocks) {
 }
 
 
+/*Conde nast -> Minimum number of swaps required to sort an array*/
+
+//NOT WORKING
+function solution(arr){
+    let swapCnt = 0;
+    const sorted = JSON.stringify([...arr].sort());
+    console.log('sorted');
+debugger;
+    for(var i=0; i<arr.length-1; i++){
+        let temp = arr[i];
+        let idx = i;
+
+        for(var j=i+1; j<arr.length-1; j++){
+            if(arr[j] < temp){
+                temp = arr[j];
+                idx = j;
+            }
+        }
+
+        if(i !== idx){
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+            swapCnt++;
+        }
+        if(JSON.stringify(arr) === sorted) break;
+    }
+
+return swapCnt;
+}
+
+//REFERENCE -> https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/
 
 
 
