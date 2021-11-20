@@ -75,6 +75,21 @@ cisco and code-evolution:
 https://stackblitz.com/edit/js-twg8go?file=test-cisco.js
 */
 
+/* HCL
+
+-> 
+// 0 1 1 2 3 5 8 .. 100
+function fib(n, res=[0,1]){
+  if(res.length === n) return res;
+	res.push(res[res.length-2] + res[res.length-1]);
+  return fib(n, res);
+}
+
+console.log(fib(10));
+
+*/
+
+
 /*
 others:
 https://stackblitz.com/edit/family-tree1
