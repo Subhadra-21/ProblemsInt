@@ -76,9 +76,7 @@ https://stackblitz.com/edit/js-twg8go?file=test-cisco.js
 */
 
 /* HCL
-
 -> Fibonaci using recursion
-
 // 0 1 1 2 3 5 8 .. 100
 function fib(n, res=[0,1]){
   if(res.length === n) return res;
@@ -87,6 +85,11 @@ function fib(n, res=[0,1]){
 }
 
 console.log(fib(10));
+*/
+
+/*
+LG:
+-> https://codesandbox.io/s/lg1-ybri1?file=/src/index.js
 
 */
 
