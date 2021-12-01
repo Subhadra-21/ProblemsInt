@@ -100,6 +100,12 @@ Hexaware:
 
 
 /*
+conde nast:
+-> https://codesandbox.io/s/conde2-hb2ud
+
+*/
+
+/*
 others:
 https://stackblitz.com/edit/family-tree1
 https://stackblitz.com/edit/web-platform-ropztu?file=file1.html
