@@ -85,6 +85,8 @@ function fib(n, res=[0,1]){
 }
 
 console.log(fib(10));
+
+-> https://codesandbox.io/s/hcl2-e10t9?file=/src/index.js
 */
 
 /*
