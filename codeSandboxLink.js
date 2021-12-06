@@ -130,3 +130,43 @@ https://stackblitz.com/edit/family-tree1
 https://stackblitz.com/edit/web-platform-ropztu?file=file1.html
 https://stackblitz.com/edit/js-twg8go
 */
+
+
+/*
+Accion labs:
+-> Uniq Array
+function uniqArr(...intArr){
+   let x = Array.from(intArr);
+   x = intArr.reduce((arrF, iArr)=>{ arrF = arrF.concat(iArr); return arrF; },[])
+   let res = new Set(x);
+   return Array.from(res);
+}
+
+->sort array without js methods
+function sortArr(arr){
+  let resArr = [];
+  for(var i = 0; i<arr.length;i++){
+    if(resArr.length === 0) resArr.push(arr[i]);
+    else{
+        for(var j = 0; j<resArr.length;j++){
+            if(arr[i] > resArr[j]){
+                resArr.splice(j,0,arr[i]);
+                break;
+            }
+        }
+    }
+  }
+ return resArr;
+}
+
+-> synthetic event, 403,409, redux flow with middle ware
+-> react error boundry,renderProps, hoc, authentication,icrf token
+-> relative urls
+-> hoisting,closures, react17,react18, features
+
+*/
+
+
+
+
+
