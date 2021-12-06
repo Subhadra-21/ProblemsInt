@@ -142,7 +142,7 @@ function uniqArr(...intArr){
    return Array.from(res);
 }
 
-->sort array without js methods
+->sort array without js methods -> working for desc, not for asc
 function sortArr(arr){
   let resArr = [];
   for(var i = 0; i<arr.length;i++){
@@ -160,9 +160,10 @@ function sortArr(arr){
 }
 
 -> synthetic event, 403,409, redux flow with middle ware
--> react error boundry,renderProps, hoc, authentication,icrf token
+-> react error boundry,renderProps, hoc, authentication,csrf token
 -> relative urls
 -> hoisting,closures, react17,react18, features
+-> controlled vs uncontrolled, contextAPI vs redux, 
 
 */
 
