@@ -98,6 +98,23 @@ LG:
 /*
 Hexaware:
 -> https://codesandbox.io/s/hexa1-m1m3f?file=/src/App.js
+-> 2nd round
+function b(){
+console.log(myvar);    
+}
+b();
+}
+let myvar=1;
+c();
+
+-> Boolean(0), Number('32'), 
+-> a=[]
+   if(a){}else{}
+-> hooks,hoc
+-> flex-wrap, center element
+-> JS engine for async operations
+-> promises, callback fun's
+
 */
 
 
