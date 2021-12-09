@@ -167,7 +167,27 @@ function sortArr(arr){
 -> chery pick in github,rebase,squash
 */
 
+/*
+Xoriant:
+-> https://codesandbox.io/s/xoriant1-q4p1d
+*/
 
+/*
+Brillio:
+-> 1st
+    -> diff b/w class and function component
+    -> controlled element
+    -> virtual dom vs dirty checking
+    -> how do u check webservices and how u work if you have only ssh terminal
+    -> print num in this format
+    	1
+    	2 3
+	4 5 6
+	7 8 9 10
+    -> different ways of accessing elements in JS 
+    -> 
+    
+*/
 
 
 
