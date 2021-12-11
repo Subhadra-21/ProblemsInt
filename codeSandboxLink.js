@@ -191,7 +191,8 @@ Brillio:
 
 /*
 Luxoft
-1-> https://codesandbox.io/s/luxoft1-tbbdr?file=/src/index.js
+1-> (no qtn -> discussion)
+2-> https://codesandbox.io/s/luxoft1-tbbdr?file=/src/index.js
 
 */
 
